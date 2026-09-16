@@ -16,7 +16,7 @@ LOG_PATTERN = re.compile(
 records = []
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-LOG_FILE = BASE_DIR / "server.log"
+LOG_FILE = BASE_DIR / "demo_server.log"
 
 with open(LOG_FILE, "r") as file:
 
