@@ -1,6 +1,16 @@
-__pycache__/
+___pycache__/
 *.pyc
 .venv/
 venv/
 .env
 *.log
+
+# Temporary frontend/test files
+check_frontend/
+frontend_test/
+frontend_test.zip
+test_project/
+test_project.zip
+
+# Temporary Docker file
+docker
